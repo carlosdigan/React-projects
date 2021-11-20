@@ -1,0 +1,37 @@
+@import-normalize;
+@import "font.css";
+@import "Category.css";
+@import "CategoryList.css";
+@import "GameList.css";
+@import "Game.css";
+@import "Basket.css";
+@import "navbar.css";
+@import "Loading.css";
+@import "Page.css";
+@import "SortBy.css";
+
+
+*, *::before, *::after {
+    font-size: 16.25px;
+    font-family: "Avalon-Demi";
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 192, 192);
+}
+
+
+#div__heading {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+

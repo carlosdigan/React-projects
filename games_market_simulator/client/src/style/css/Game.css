@@ -1,0 +1,49 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 271px;
+    height: 95%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.game__img {
+    width: 271px;
+    height: 377px;
+}
+
+.game__img__wrapper { 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.game__title {
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.game__title, .game__price {
+    margin-left: 2.5%;
+    color: white;
+   
+}
+
+.game__price__btn__basket__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+
+.game__information__wrapper {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 0px;
+    height: 75px;
+    bottom: 13.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

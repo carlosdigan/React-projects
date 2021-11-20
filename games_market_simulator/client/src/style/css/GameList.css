@@ -1,0 +1,11 @@
+.game__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(271px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    grid-auto-rows: 450px;
+    align-items: center;
+    margin: 30px auto;
+    width: 80%;
+
+}
