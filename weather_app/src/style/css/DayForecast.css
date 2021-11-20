@@ -1,0 +1,116 @@
+.day__forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 100px;
+    
+}
+
+.day__time, .day__weekday, .day__forecast__current__temperature {
+    font-size: 30px
+}
+
+
+
+
+
+.grid__day__forecast, .grid__day__forecast__top {
+    display: grid;
+    grid-template-columns: repeat(2, 0.05fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.day__sunrise__icon, .day__moonrise__icon {
+    height: 50px
+}
+
+
+
+.grid__day__forecast__information {
+    display: grid; 
+    grid-template-columns: repeat(4, 150px);
+    column-gap: 25px;
+    width: 80%;
+    justify-content: center;
+}
+
+
+.grid__day__forecast__top {
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 50px 100px;
+}
+
+.day__forecast__information__item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.day__forecast__graph {
+    width: 50%;
+}
+
+.day__weekday__time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-column: span 2;
+}
+
+
+@media (width < 450px) {
+    .day__forecast__information__item {
+        font-size: 12px;
+    }
+}
+
+@media (width < 800px) {
+    .grid__day__forecast__information {
+        grid-template-columns: repeat(2, 150px);
+    }
+
+    .day__forecast__morning__temperature {
+        order: 5;
+    }
+
+    .day__forecast__feels__like__morning__temperature {
+        order: 6;
+    }
+
+
+    .day__forecast__day__temperature {
+        order: 7;
+    }
+
+    .day__forecast__feels__like__day__temperature {
+        order: 8;
+    }
+
+    .day__forecast__evening__temperature {
+        order: 9;
+    }
+
+    .day__forecast__feels__like__evening__temperature {
+        order: 10;
+    }
+
+    .day__forecast__night__temperature {
+        order: 11;
+    }
+
+    .day__forecast__feels__like__night__temperature {
+        order: 12;
+    }
+
+}
+
+@media (width < 350px) {
+    .grid__day__forecast__information {
+        grid-template-columns: repeat(1, 125px);
+        row-gap: 5px;
+    }
+}

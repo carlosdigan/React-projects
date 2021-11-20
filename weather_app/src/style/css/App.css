@@ -1,0 +1,20 @@
+@import "./Day.css";
+@import "./Week.css";
+@import "./DayForecast.css";
+@import "./Search.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
