@@ -1,6 +1,6 @@
 # Twitter Replica
 
-This react app is a partial mimic of twitter, with the functionality to create new tweets, view other tweets on the main page and like/retweet them. I plan to add more functionality when I learn about express and MongoDB
+This react app is a partial mimic of twitter, with the functionality to create new tweets, view other tweets on the main page and like/retweet them. I plan to add more functionality when I learn about Express.js and MongoDB
 
 I have deployed this to heroku so it can be viewed on the web instead of having to clone the repository then run the localhost server yourself.
 
