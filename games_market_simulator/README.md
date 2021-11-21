@@ -4,7 +4,7 @@ This react app was created to be a mimic of websites that sell real games such a
 
 I have deployed this to heroku so it can be viewed on the web instead of having to clone the repository then run the localhost server yourself.
 
-The link is: https://games-market-simulator.herokuapp.com/
+This can be viewed at: https://games-market-simulator.herokuapp.com/
 
 # Note
 Please note that the first load will take a bit longer, approximately 15 - 30 seconds, then all subsequent requests will be much faster. This is because: 
